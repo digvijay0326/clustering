@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cluster Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #343a40;
+            color: white;
+        }
+        .container {
+            margin-top: 50px;
+            max-width: 700px;
+            background: #495057;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .btn-primary {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Cluster Prediction</h1>
+        <form method="POST" action="/predict">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="T1">T1</label>
+                    <input type="number" class="form-control" id="T1" name="T1" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="T2">T2</label>
+                    <input type="number" class="form-control" id="T2" name="T2" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="T3">T3</label>
+                    <input type="number" class="form-control" id="T3" name="T3" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="T4">T4</label>
+                    <input type="number" class="form-control" id="T4" name="T4" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="T5">T5</label>
+                    <input type="number" class="form-control" id="T5" name="T5" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="T6">T6</label>
+                    <input type="number" class="form-control" id="T6" name="T6" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="T7">T7</label>
+                    <input type="number" class="form-control" id="T7" name="T7" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="T8">T8</label>
+                    <input type="number" class="form-control" id="T8" name="T8" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="T9">T9</label>
+                    <input type="number" class="form-control" id="T9" name="T9" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="T10">T10</label>
+                    <input type="number" class="form-control" id="T10" name="T10" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="T11">T11</label>
+                    <input type="number" class="form-control" id="T11" name="T11" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="T12">T12</label>
+                    <input type="number" class="form-control" id="T12" name="T12" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="T13">T13</label>
+                    <input type="number" class="form-control" id="T13" name="T13" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="T14">T14</label>
+                    <input type="number" class="form-control" id="T14" name="T14" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="T15">T15</label>
+                    <input type="number" class="form-control" id="T15" name="T15" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="T16">T16</label>
+                    <input type="number" class="form-control" id="T16" name="T16" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="T17">T17</label>
+                    <input type="number" class="form-control" id="T17" name="T17" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="T18">T18</label>
+                    <input type="number" class="form-control" id="T18" name="T18" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+    </div>
+</body>
+</html>

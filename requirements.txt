@@ -1,0 +1,11 @@
+scikit-learn
+matplotlib
+numpy
+pandas 
+scipy
+openpyxl
+dill
+flask
+plotly
+dash
+# -e .
